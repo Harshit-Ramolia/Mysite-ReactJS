@@ -1,0 +1,46 @@
+.roles {
+    padding-top: 38px;
+    padding-left: 109px;
+    padding-right: 99px;
+    padding-bottom: 71px;
+    animation: slidein 0.5s forwards;
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateX(200px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+.roles ul {
+    display: flex;
+    align-items: center;
+}
+
+.roles ul li a.btn {
+    margin-right: 25px;
+    width: 190px;
+    height: 40px;
+    background: #673ab7;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    padding: 0;
+}
+
+.roles ul svg {
+    margin: 0 11px;
+}
+
+a.btn svg {
+    margin: 0 12px 0 24px;
+}

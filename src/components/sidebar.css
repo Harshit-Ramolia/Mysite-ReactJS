@@ -1,0 +1,60 @@
+.sidebar {
+    background-color: #fcfbff;
+    height: 100%;
+    flex-basis: 19.375%;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    animation:  fadein 0.5s forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.sidebar li {
+    width: 100%;
+    display: block;
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar li svg {
+    margin: 0 20px;
+    fill: black;
+    fill-opacity: 0.54;
+}
+
+.sidebar li h2 {
+    margin: 0 2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
+}
+
+.sidebar li.active h2 {
+    color: #673ab7;
+    font-weight: 500;
+}
+
+.sidebar li.active {
+    box-sizing: border-box;
+    background-color: #e1d8f1;
+    fill: #673ab7;
+    box-shadow: 11px 0 0 -4px #673ab7 inset;
+}

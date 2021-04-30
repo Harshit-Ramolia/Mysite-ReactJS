@@ -1,0 +1,74 @@
+.content {
+    overflow-y: scroll;
+    width: 100%;
+    padding-bottom: 71px;
+}
+
+.content .tabs {
+    height: 83px;
+    padding-left: 32px;
+    border-bottom: 1px solid rgba(207, 211, 218, 0.5);
+    width: 100%;
+    animation: fadein 0.5s forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    100% {
+        opacity: 1;
+    }
+}
+
+.content ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: row;
+    height: 100%;
+}
+
+.content ul li a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 11px;
+    color: #333333;
+    font-weight: normal;
+}
+
+.content ul li .active h2 {
+    font-weight: 500;
+    color: #673ab7;
+}
+
+.content ul li h2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 4px;
+}
+
+.content ul li {
+    position: relative;
+}
+
+.content .underline {
+    background: #673ab7;
+    border-radius: 10px 10px 0px 0px;
+    height: 5px;
+    width: 104%;
+    margin-top: 6px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content .vl {
+    width: 30px;
+    height: 0px;
+    position: relative;
+    bottom: 28px;
+    left: 2px;
+    border: 1px solid #cfd3da;
+    transform: rotate(90deg) scaleY(0.5);
+}
