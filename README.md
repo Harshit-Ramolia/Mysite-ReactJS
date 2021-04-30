@@ -1,6 +1,7 @@
 # This is a sample of Single page application made by ReactJS
 
-Data is hardcoded as state of app.jsx but can use api too.
+Data is hardcoded as state of app.jsx but can use api too. <br>
+Heroku link : https://mysitereactjs.herokuapp.com/
 
 ## Functionality
 
