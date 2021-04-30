@@ -13,8 +13,8 @@ Can turn on or off any department of department inside role. <br>
 
 ## Screenshots
 
-![img1](screenshots/img1.PNG) 
+![img1](screenshots/img1.png) 
 <br>
-![img2](screenshots/img2.PNG) 
+![img2](screenshots/img2.png) 
 <br>
-![img3](screenshots/img3.PNG) 
+![img3](screenshots/img3.png) 
